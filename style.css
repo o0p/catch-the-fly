@@ -17,6 +17,17 @@ body {
     text-align: center;
 }
 
+.btn {
+    border: 0;
+    background-color: white;
+    color: #516dff;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
 .screen {
     display: flex;
     flex-direction: column;
