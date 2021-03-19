@@ -5,6 +5,8 @@
 }
 
 body {
+    background-color: #516dff;
+    color: wheat;
     font-family: 'Press Start 2P', sans-serif;
     flex-direction: column;
     align-items: center;
