@@ -27,6 +27,9 @@ body {
     font-size: 1.2rem;
 }
 
+.btn:focus {
+    outline: 0;
+}
 
 .screen {
     display: flex;
