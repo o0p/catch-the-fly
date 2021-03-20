@@ -53,7 +53,7 @@ h1 {
 }
 
 .screen.up {
-    margin-top: -200vh;
+    margin-top: -100vh;
 }
 
 .insects-list {
@@ -140,8 +140,6 @@ h1 {
     position: absolute;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 300ms ease-out;
-    top: 200px;
-    left: 300px;
 }
 
 .insect.caught {
