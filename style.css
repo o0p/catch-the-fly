@@ -17,9 +17,13 @@ body {
     text-align: center;
 }
 
+a {
+    color: wheat;
+}
+
 .btn {
     border: 0;
-    background-color: white;
+    background-color: wheat;
     color: #516dff;
     padding: 15px 20px;
     font-family: inherit;
