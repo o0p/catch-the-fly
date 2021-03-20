@@ -144,6 +144,10 @@ h1 {
     left: 300px;
 }
 
+.insect.caught {
+    transform: translate(-50%, -50%) scale(0);
+}
+
 .insect img {
     width: 100px;
     height: 100px;
