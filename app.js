@@ -1,3 +1,3 @@
 const screen = document.querySelectorAll('.screen');
 
-screen[0].classList.add();
+screen[0].classList.add('up');
