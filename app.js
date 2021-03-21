@@ -10,3 +10,15 @@ let score = 0;
 let selected__insect = {};
 
 start_btn.addEventListener('click', () => screens[0].classList.add('up'));
+
+choose_insect_btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const img = btn.querySelector('img');
+        const src = btn.getAttribute('src');
+        const alt = btn.getAttribute('alt');
+        selected__insect = { src, alt };
+        screens[1].classList.add('up');
+        setTimeout(createInsect, 1000);
+        startGame();
+    });
+});
